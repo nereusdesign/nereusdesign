@@ -10,7 +10,7 @@ $panel-default-border: $laravel-border-color;
 $panel-inner-border: $laravel-border-color;
 
 // Brands
-$brand-primary: #3097D1;
+$brand-primary: #000f4a;
 $brand-info: #8eb4cb;
 $brand-success: #2ab27b;
 $brand-warning: #cbb956;
@@ -25,6 +25,20 @@ $text-color: #636b6f;
 
 // Navbar
 $navbar-default-bg: #fff;
+// general variables
+$nav_bg: #F8F8F8;
+$logo_width_sm: 200px;
+$logo_width_md: 305px;
+$mobile_nav_height: 75px;
+
+$link_padding_md_left: 40px 0 40px 50px;
+$link_padding_md_right: 40px 50px 40px 0;
+$link_padding_lg_left: 40px 0 40px 90px;
+$link_padding_lg_right: 40px 90px 40px 0;
+
+// text colors;
+$text_black: #707070;
+$text_hover: #BC7A84;
 
 // Buttons
 $btn-default-color: $text-color;
