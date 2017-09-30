@@ -22,21 +22,15 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Fims</a>
+                    <a href="{{route('services')}}">Services Offered</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#">Packages</a>
+                    <a href="{{route('request-estimate')}}">Request <strong>Free</strong> Estimate</a>
                 </li>
                 <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <a href="{{route('login')}}">Login</a>
                 </li>
             </ul>
         </div>

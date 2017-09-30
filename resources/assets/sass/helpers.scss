@@ -45,3 +45,9 @@ $sides: (top, bottom, left, right); // Leave this variable alone
   -moz-transform-origin: 0 0;
   margin: 4px;
 }
+
+.help {
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}

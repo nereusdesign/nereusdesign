@@ -29,4 +29,10 @@ Auth::routes();
 /$this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm');
 /$this->post('password/reset', 'Auth\ResetPasswordController@reset');
 */
-Route::get('/', ['uses' =>'BasicController@index'])->name('index');
+
+Route::any('/', ['uses' =>'BasicController@index'])->name('index');
+Route::any('/serices-offered', ['uses' =>'BasicController@services'])->name('services');
+Route::get('/contact-us', ['uses' =>'BasicController@contact'])->name('contact');
+Route::post('/contact-us', ['uses' =>'BasicController@processContact'])->name('contact');
+Route::get('/request-free-estimate', ['uses' =>'BasicController@estimate'])->name('request-estimate');
+Route::post('/request-free-estimate', ['uses' =>'BasicController@processEstimate'])->name('request-estimate');

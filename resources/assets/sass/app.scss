@@ -1,3 +1,6 @@
+//Universal Fonts
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
 // Font Awesome
 @import "node_modules/font-awesome/scss/font-awesome.scss";
 
@@ -6,3 +9,9 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+//Other Base SCSS Files (all have access to site wide variables)
+@import "overrides";
+@import "helpers";
+@import "styles";

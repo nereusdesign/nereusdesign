@@ -17,6 +17,7 @@
 <body>
      @include('_includes.nav.main')
     <div id="app">
+        @include('_includes.alerts')
         @yield('content')
         @include('_includes.footer')
     </div>

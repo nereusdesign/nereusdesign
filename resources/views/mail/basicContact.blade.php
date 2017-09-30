@@ -1,0 +1,9 @@
+<html>
+<body>
+  <table>
+    <tr><td><strong>Name</strong></td><td>{{$fromName}}</td></tr>
+    <tr><td><strong>Email</strong></td><td>{{$fromEmail}}</td></tr>
+    <tr><td><strong>Message</strong></td><td>{{$msg}}</td></tr>
+  </table>
+</body>
+</html>
