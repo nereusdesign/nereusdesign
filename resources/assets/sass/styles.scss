@@ -243,7 +243,9 @@
     background: $brand-primary;
     width: 60px;
     border-radius: 50%;
-
+    &:first-child{
+      color: $brand-primary;
+    }
     .icon {
       color: #fff;
       transform: translate(-16px,-110px);

@@ -11,9 +11,9 @@ class BasicController extends Controller
 {
     public function index(){
           if(Auth::check()){
-              return view('base.home');
-          }else{
               return view('base.member');
+          }else{
+              return view('base.home');
           }
     }
 
@@ -40,6 +40,10 @@ class BasicController extends Controller
 
 
     public function estimate(){
+           return view('base.estimate');
+    }
+
+    public function processEstimate(Request $request){
           $this->validate($request, [
                 'name' => 'required',
                 'email' => 'required|email',
