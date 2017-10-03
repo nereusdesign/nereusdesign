@@ -105,7 +105,8 @@
             li {
                 a {
                     color: $text_black !important;
-                    font-size: 14px;
+                    font-size: 16px;
+                    font-weight:bold;
                     &:hover {
                       background: darken($nav_bg, 5%) !important;
                         color: $text_hover !important;
@@ -139,7 +140,8 @@
             li {
                 a {
                     color: $text_black !important;
-                    font-size: 14px;
+                    font-size: 16px;
+                    font-weight: bold;
                     &:hover {
                         color: $text_hover !important;
                     }

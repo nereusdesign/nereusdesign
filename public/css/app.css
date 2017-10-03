@@ -11957,6 +11957,10 @@ textarea {
   font-size: 16px !important;
 }
 
+.is-font-18 {
+  font-size: 18px !important;
+}
+
 .is-fullwidth {
   width: 100%;
 }
@@ -12113,12 +12117,13 @@ textarea {
 
   .navbar-nav li a {
     color: #707070 !important;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   .navbar-nav li a:hover {
     background: #ebebeb !important;
-    color: #BC7A84 !important;
+    color: #034490 !important;
   }
 }
 
@@ -12147,11 +12152,12 @@ textarea {
 
   .navbar-nav li a {
     color: #707070 !important;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   .navbar-nav li a:hover {
-    color: #BC7A84 !important;
+    color: #034490 !important;
   }
 
   .navbar-right li a {

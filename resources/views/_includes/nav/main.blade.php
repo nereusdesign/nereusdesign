@@ -19,7 +19,7 @@
         <div id="nav" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
                 <li>
-                    <a href="/">Home</a>
+                    <a href="{{route('index')}}">Home</a>
                 </li>
                 <li>
                     <a href="{{route('services')}}">Services Offered</a>
